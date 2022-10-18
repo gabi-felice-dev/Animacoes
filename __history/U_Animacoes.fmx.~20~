@@ -1,0 +1,83 @@
+object FrmAnimacoes: TFrmAnimacoes
+  Left = 0
+  Top = 0
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Anima'#231#245'es'
+  ClientHeight = 304
+  ClientWidth = 253
+  Position = ScreenCenter
+  SystemStatusBar.BackgroundColor = claWhite
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Circle1: TCircle
+    Fill.Kind = Gradient
+    Fill.Gradient.Points = <
+      item
+        Color = xFFA80DE3
+        Offset = 0.000000000000000000
+      end
+      item
+        Color = claWhite
+        Offset = 1.000000000000000000
+      end>
+    Fill.Gradient.StartPosition.X = 0.266846179962158200
+    Fill.Gradient.StopPosition.X = 0.733153820037841800
+    Position.X = 32.000000000000000000
+    Position.Y = 8.000000000000000000
+    RotationAngle = 1.000000000000000000
+    Size.Width = 201.000000000000000000
+    Size.Height = 169.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Color = claDarkorchid
+    Stroke.Thickness = 15.000000000000000000
+    Stroke.Dash = Dot
+    object FloatAnimation1: TFloatAnimation
+      Duration = 5.000000000000000000
+      PropertyName = 'RotationAngle'
+      StartValue = 0.000000000000000000
+      StopValue = 360.000000000000000000
+    end
+  end
+  object BtnPlay: TButton
+    Position.X = 84.000000000000000000
+    Position.Y = 257.000000000000000000
+    Size.Width = 41.000000000000000000
+    Size.Height = 32.000000000000000000
+    Size.PlatformDefault = False
+    StyleLookup = 'playtoolbutton'
+    TabOrder = 2
+    Text = 'BtnPlay'
+  end
+  object LblDuracao: TLabel
+    Position.X = 66.000000000000000000
+    Position.Y = 208.000000000000000000
+    Size.Width = 193.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Dura'#231#227'o: (em segundos)'
+    TabOrder = 3
+  end
+  object EdtDuracao: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 4
+    Text = '0'
+    Position.X = 66.000000000000000000
+    Position.Y = 226.000000000000000000
+    Size.Width = 129.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object BtnPause: TButton
+    Position.X = 124.000000000000000000
+    Position.Y = 256.000000000000000000
+    Size.Width = 41.000000000000000000
+    Size.Height = 32.000000000000000000
+    Size.PlatformDefault = False
+    StyleLookup = 'pausetoolbutton'
+    TabOrder = 1
+    Text = 'Button1'
+    OnClick = BtnPauseClick
+  end
+end

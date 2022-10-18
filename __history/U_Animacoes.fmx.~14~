@@ -1,0 +1,51 @@
+object FrmAnimacoes: TFrmAnimacoes
+  Left = 0
+  Top = 0
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Anima'#231#245'es'
+  ClientHeight = 233
+  ClientWidth = 226
+  Position = ScreenCenter
+  SystemStatusBar.BackgroundColor = claWhite
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Circle1: TCircle
+    Fill.Kind = Gradient
+    Fill.Gradient.Points = <
+      item
+        Color = xFFA80DE3
+        Offset = 0.000000000000000000
+      end
+      item
+        Color = claWhite
+        Offset = 1.000000000000000000
+      end>
+    Fill.Gradient.StartPosition.X = 0.266846179962158200
+    Fill.Gradient.StopPosition.X = 0.733153820037841800
+    Position.X = 16.000000000000000000
+    Position.Y = 8.000000000000000000
+    RotationAngle = 1.000000000000000000
+    Size.Width = 201.000000000000000000
+    Size.Height = 169.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Color = claDarkorchid
+    Stroke.Thickness = 15.000000000000000000
+    Stroke.Dash = Dot
+    object FloatAnimation1: TFloatAnimation
+      Duration = 5.000000000000000000
+      PropertyName = 'RotationAngle'
+      StartValue = 0.000000000000000000
+      StopValue = 360.000000000000000000
+    end
+  end
+  object Button1: TButton
+    Position.X = 72.000000000000000000
+    Position.Y = 200.000000000000000000
+    StyleLookup = 'playtoolbutton'
+    TabOrder = 1
+    Text = 'Button1'
+    OnClick = Button1Click
+  end
+end

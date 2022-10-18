@@ -1,0 +1,4 @@
+inherited FrmAnimacoes_Windows: TFrmAnimacoes_Windows
+  ClientWidth = 235
+  DesignerMasterStyle = 0
+end

@@ -1,0 +1,38 @@
+unit U_Animacoes;
+
+interface
+
+uses
+  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
+  FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs,
+  FMX.Controls.Presentation, FMX.StdCtrls, FMX.Objects, FMX.Ani, FMX.Edit;
+
+type
+  TFrmAnimacoes = class(TForm)
+    Circle1: TCircle;
+    Button1: TButton;
+    FloatAnimation1: TFloatAnimation;
+    LblDuracao: TLabel;
+    EdtDuracao: TEdit;
+    procedure Button1Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FrmAnimacoes: TFrmAnimacoes;
+
+implementation
+
+{$R *.fmx}
+
+procedure TFrmAnimacoes.Button1Click(Sender: TObject);
+begin
+    FloatAnimation1.Enabled  := false;
+    FloatAnimation1.Duration := StrToInt(EdtDuracao.Text);
+    FloatAnimation1.Enabled  := true;
+end;
+
+end.

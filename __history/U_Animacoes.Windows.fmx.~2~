@@ -1,0 +1,12 @@
+inherited FrmAnimacoes_Windows: TFrmAnimacoes_Windows
+  ClientHeight = 226
+  ClientWidth = 235
+  DesignerMasterStyle = 0
+  inherited Circle1: TCircle
+    Stroke.Thickness = 10.000000000000000000
+    Stroke.Dash = Dot
+  end
+  inherited Button1: TButton
+    Position.Y = 176.000000000000000000
+  end
+end
