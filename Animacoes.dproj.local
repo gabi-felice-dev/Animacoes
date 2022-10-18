@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2022/10/18 16:11:34.006,=C:\Users\gabri\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/10/18 16:12:03.165,C:\Git\Delphi\Animacoes\U_Animacoes.pas=C:\Users\gabri\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/10/18 16:12:03.166,C:\Git\Delphi\Animacoes\U_Animacoes.fmx=C:\Users\gabri\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>2022/10/18 16:12:10.969,C:\Git\Delphi\Animacoes\Animacoes.dproj=C:\Users\gabri\OneDrive\Documentos\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2022/10/18 16:17:46.454,C:\Git\Delphi\Animacoes\U_Animacoes.pas=</Transaction>
+    <Transaction>2022/10/18 16:18:07.071,=C:\Git\Delphi\Animacoes\Unit1.pas</Transaction>
+    <Transaction>2022/10/18 16:19:47.587,C:\Git\Delphi\Animacoes\U_Animacoes.pas=C:\Git\Delphi\Animacoes\Unit1.pas</Transaction>
+    <Transaction>2022/10/18 16:19:47.587,C:\Git\Delphi\Animacoes\U_Animacoes.fmx=C:\Git\Delphi\Animacoes\Unit1.fmx</Transaction>
+  </Transactions>
+  <ActiveMobileDevice>   <NoProfile iOSSimulator="iPhone5"/>
+  </ActiveMobileDevice>
+</BorlandProject>

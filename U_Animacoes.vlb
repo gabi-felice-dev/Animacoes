@@ -1,0 +1,12 @@
+﻿[Circle1]
+Coordinates=73,10,48,33
+
+[]
+Coordinates=140,53,82,33
+
+[FloatAnimation1]
+Coordinates=140,1,95,33
+
+[BtnPlay]
+Coordinates=10,10,53,51
+
